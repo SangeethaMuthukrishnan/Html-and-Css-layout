@@ -1,0 +1,189 @@
+*{
+  font-family: "Open sans",Arial,sans-serif;
+}
+
+/* contact info-mail and phone begins*/
+
+#header #mail-phone-container ul {
+    padding-left:700px;
+    margin:0;
+    display:flex;
+    justify-content: center;
+}
+#mail-phone-container ul li{
+    list-style-type: none;
+    float:left;
+    padding-top:12px;
+    text-decoration: none;
+    color:#F7F7F7;
+}
+#mail-phone-container ul li a{
+    text-decoration: none;
+    color: #999;
+    font-size:14px;
+}
+/* contact info-mail and phone ends*/
+
+/* navbar begins here*/
+
+
+#navbar-list ul{
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    padding-left: 800px;
+
+    /* if we give display:flex and justify-content:space-evenly or space between, the navbar items takes equal space*/
+
+    display:flex;
+    justify-content: space-evenly;
+}
+#navbar-list ul li{
+    list-style-type: none;
+    float:left;
+    height:33px;
+    padding-top: 12px;
+    border-radius: 3px;
+
+}
+#navbar-list ul li a{
+    color:#0088CC;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+
+
+}
+/*This styles are not working properly*/
+#navbar-list ul li:hover{
+    background-color:#0088CC;
+    color:white;
+}
+#navbar-list ul li a:hover{
+    color:white;
+}
+
+
+/* navbar ends here*/
+
+/*navbar-social media icons*/
+/*
+#social-media-icons a i
+{
+    color:black;
+    border-radius:30%;
+    border:1px solid black;
+}
+#social-media-icons a i:hover{
+    background-color:#0088CC;
+
+    color:white;
+
+}*/
+/*#logo-image{
+    border:1px solid black;
+}*/
+/* second header*/
+
+.second-header{
+    background-color:#F7F7F7;
+    margin-top:2px;
+    height:100px;
+    width:100%;
+    text-align:center;
+    font-size: 11px;
+
+
+}
+.second-header a{
+
+}
+/*second header-anchor tag*/
+.second-header a{
+    padding-top:20px;
+
+}
+#form1{
+
+    border: 1px solid white;
+    margin-left: 100px;
+    width:550px;
+    height:1000px;
+    padding-left: 20px;
+    box-shadow: 0px 8px 3px #0088CC inset;
+    border-radius: 15px;
+    margin-top:100px;
+    font-size:14px;
+
+}
+
+p{
+    color:#0088CC;
+    font-size: 18px;
+}
+
+/* for login form -input boxes*/
+
+.form-container #form1 .form1-input{
+    padding:0px 20px 0px 20px;
+    width:80%;
+    height:35px;
+}
+.form-container #form1 #form1-checkbox{
+    padding-left:20px;
+}
+#form1-submit-button{
+    float:left;
+}
+/*login form container*/
+.form-container{
+    float:left;
+    width:46%;
+}
+#form1-submit-button{
+    border:1px solid white;
+    background-color: #0088CC;
+    border-radius: 5px;
+    margin-left: 70%;
+    width:60px;
+    height:40px;
+}
+/*login form ends here*/
+
+/*register form styles- begins*/
+
+.register-container #form2{
+
+    border: 2px solid white;
+    margin-left: 100px;
+    width:550px;
+    height:1000px;
+    padding-left: 20px;
+    box-shadow: 0px 8px 3px #0088CC inset;
+    border-radius: 15px;
+    margin-top:100px;
+    font-size:14px;
+    clear:left;
+
+}
+
+.register-container{
+    float:left;
+    width:37%;
+}
+.register-container #form2 .form2-input{
+    padding:0px 20px 0px 20px;
+    width:80%;
+    height:35px;
+}
+.register-container #form2 #form2-checkbox{
+    padding-left:20px;
+}
+#form2-submit-button{
+    border:1px solid white;
+    background-color: #0088CC;
+    border-radius: 5px;
+    margin-left: 70%;
+    width:60px;
+    height:40px;
+}
